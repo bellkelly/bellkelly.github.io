@@ -1,0 +1,77 @@
+html,
+body,
+.full-height {
+    height: 100%;
+}
+
+.content-height {
+    height: 80%;
+}
+
+a:link,
+a:visited {
+    color: #f5f5f5;
+}
+
+a:hover,
+a:active {
+    color: #46515c;
+}
+
+body {
+    background: #46515c; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #9C27B0, #FFEB3B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #9C27B0, #FFEB3B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #9C27B0, #FFEB3B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #9C27B0, #FFEB3B); /* Standard syntax */
+}
+
+.left-col {
+    padding: 25% 3%;
+}
+.right-col {
+    padding: 20% 5%;
+}
+
+.content {
+    background: #46515c;
+    color: #f5f5f5;
+    padding: 24px;
+    border-radius: 4%;
+}
+
+.footer {
+    color: #f5f5f5;
+    font-size: x-large;
+}
+
+.footer > span {
+    padding: 3% 6%;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        background: #46515c;
+    }
+
+    a:hover,
+    a:active {
+        color: #c77c7d;
+    }
+
+    .content-height {
+        height: auto;
+    }
+
+    .left-col {
+        padding: 3% 3%;
+    }
+    .right-col {
+        padding: 3% 3%;
+    }
+
+    .right-col,
+    .content {
+        background: transparent;
+    }
+}

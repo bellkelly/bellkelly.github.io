@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+    <div class="container-fluid content-height">
+        {% include header.html %}
+
+
+        <div class="row full-height">
+            <div class="col-sm-4 col-xs-12 full-height left-col">
+                <img src="/images/kelly.jpg" class="img-rounded img-responsive" alt="Kelly Bell"/>
+            </div>
+            <div class="col-sm-8 col-xs-12 full-height right-col">
+                <div class="content text-justify">
+                    <h1>Hello, my name is Kelly.</h1>
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        {% include footer.html %}
+    </div>
+
+</body>
+</html>
+
