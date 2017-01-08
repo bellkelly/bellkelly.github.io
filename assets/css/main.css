@@ -26,18 +26,30 @@ body {
     background: linear-gradient(to bottom right, #9C27B0, #FFEB3B); /* Standard syntax */
 }
 
+img {
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+}
+
 .left-col {
-    padding: 25% 3%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .right-col {
-    padding: 20% 5%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .content {
     background: #46515c;
     color: #f5f5f5;
     padding: 24px;
-    border-radius: 4%;
+    border-radius: 1%;
+    display: block;
+    margin: auto;
 }
 
 .footer {
@@ -49,9 +61,14 @@ body {
     padding: 3% 6%;
 }
 
-@media only screen and (max-width: 767px) {
+
+@media only screen and (max-width: 991px) {
     body {
         background: #46515c;
+    }
+
+    img {
+        width: 60%;
     }
 
     a:hover,
@@ -64,14 +81,15 @@ body {
     }
 
     .left-col {
-        padding: 3% 3%;
+        margin: auto;
     }
     .right-col {
-        padding: 3% 3%;
+        margin: auto;
     }
 
     .right-col,
     .content {
         background: transparent;
+        text-align: center;
     }
 }
