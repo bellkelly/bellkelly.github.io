@@ -8,4 +8,4 @@ I have a keen interest in software engineering and am currently taking courses i
 
 I have experience with Angular, C, CSS, Express.js, Java, JavaScript, JQuery, Git, GitHub, Haskell, HTML, Latex, Node.js, Python, React, Shell Script, SVN.
 
-In my free time I enjoy spending time with my partner and family members, hanging out with my cats, knitting, listening to podcasts, and playing video games.
+I enjoy spending my free time with my partner and family members, hanging out with my cats, knitting, listening to podcasts, and playing video games.
